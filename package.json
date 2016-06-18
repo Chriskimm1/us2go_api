@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "chris kim",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^0.8.7",
     "body-parser": "^1.15.1",
     "express": "^4.13.4",
     "morgan": "^1.7.0",
